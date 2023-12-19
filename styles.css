@@ -12,7 +12,9 @@ body{
     border-radius: 10px;
 }
 
-.btn {
+.btn.number,.btn.equal,
+.btn.decimal,.btn.operator,
+#clear-btn{
     height: 75px;
     width: 75px;
     margin: 15px;
@@ -73,7 +75,8 @@ body{
 
 #Screen{
     width: 300px;
-    border: 1px solid salmon;
+    border: 2px solid salmon;
+    border-radius: 10px;
     height: 75px;
     margin: 15px;
     display: flex;
